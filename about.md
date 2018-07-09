@@ -12,11 +12,11 @@ I have been fortunate to work with very smart people in projects in many differe
 
 My most recent work experience has been leading cross functional teams for the development of proposals for wastewater treatment plants. I developed budgets for the supply of wastewater treatment plants, responded customer questions and resourced as necessary to complete commercial offerings and provide technical support.
 
-I am currently in the Metis Data science bootcamp (https://www.thisismetis.com/data-science-bootcamps). I am excited about about data science and enjoying the bootcamp. I am very curious about the nuances and variable interactions that data may reveal.
+I am currently in the [Metis Data science bootcamp](https://www.thisismetis.com/data-science-bootcamps). I am excited about about data science and enjoying the bootcamp. I am very curious about the nuances and variable interactions that data may reveal.
 
 ### Outside Datas Science
 
-I am a runner and I am training for the Seattle to Portland bike ride organized by the Cascade Bycicle Club (https://cascade.org/).  I also have the cutest dog. Her name is Carmen.
+I am a runner and I am training for the Seattle to Portland bike ride organized by the [Cascade Bycicle Club](https://cascade.org/).  I also have the cutest dog. Her name is Carmen.
 
 I enjoy yoga and I practice vipassana meditation.
 
