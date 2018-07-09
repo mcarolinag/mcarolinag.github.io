@@ -1,1 +1,47 @@
 
+MTA data analysis
+Our first project at the Metis Data Science bootcamp was to offer recommendations to the WomenTechWomenYes (WTWY) organization for the placement of volunteers to collect email addresses.
+The email addresses will be used to distribute invitations to their annual gala. The purpose of the annual gala is to raise awareness about the organization and fundraising for the organization.
+The MTA turnstile data was offered as a start point. This data set gives an indication of people traffic in NYC.  The data is available at http://web.mta.info/developers/turnstile.html.
+I downloaded one month of data, corresponding with June 2018, in four separate csv files. I concatenated these files into a dataframe and conducted the exploratory data analysis with Python.
+Preliminary exploration showed that there are not nulls in the data collected, yeahhy!
+However, there were a couple of duplicated data rows and some entries and exit numbers that did not make sense.
+The duplicates were dropped for the analysis.
+I was interested in looking at total traffic per station: for the overall collected period, per week,  per day of the week, and per hour. 
+Of course, the conversion of the ‘date’ column from a string to a datetime object was necessary.
+The entries and exits numbers per turnstile are cumulative. Therefore, the entries and exits for a time period are the delta of the entries and exits number at the beginning and the end of the observed period.
+I used the ‘groupby’ liberally to look at the individual turnstile data.  First, I grouped the data by turnstile and used the ‘diff()’ function to create columns for the time intervals between readings, deltas for entries and exits.
+Then, negative and huge deltas were spotted….and eliminated. There data points were about 14% of the data and I did not have a good assumption to replace these values.
+After these values were out of the picture. I defined ‘total_traffic’ per turnstile as the sum of the delta entries and delta exits in between readings
+Again, ‘groupby’ came to the rescue. I grouped by ‘station’ and ‘linename’ to make sure that I was not aggregating all the stations that were on the same street. There are several stations with the same name, but they are at different locations and serve different lines.
+The daily, weekly, day of the week slices of the data were subsets of the ‘station’ and ‘linename’ groupby dataset. I just added the corresponding additional index to see the desired segment.
+The datetime module was great to identify weeks and day of the week.
+The process chosen by the WTWY required several self-selecting steps:
+	•	The person of interest needed to talk with the volunteer
+	•	Provide an email address to the volunteer
+	•	Read the invite email
+	•	Show up at the gala.
+We could start with the largest population possible, top 10 stations by traffic, and hope that after the several self-selecting filtering steps, we have a decent amount of attendees at the gala.
+I decided to look at other potential options that may target tech workers hoping for a greater success rate.
+After some googling I found an article from Tech Crunch examining the footprint of tech large companies in NYC: 
+This article was instrumental to see the location of the NYC offices for large Tech employees.
+MTA turnstile data does not include geographical information. However, I found online another dataset that included geographical information for the stations: http://web.mta.info/developers/data/nyct/subway/Stations.csv
+However, there was not a common column for the turnstile data and the location data.
+I had very limited time to finish this. Thus, instead of messing with fuzzywuzzy, I just created a ‘station_id’ column in the turnstile dataset, and manually entered the corresponding ‘station_id’ number as per the station name and description on geographical dataset for the top ten stations by traffic.
+I merged in Python the turnstile and geographical datasets using a left join on station ID and exported the new dataframe to a csv. Then, I plotted the top ten station in the New York City map with Tableau.
+The employers with most tech employees in NYC are near the following stations:
+Astor Pl 
+8th at NYU
+Herald SQ
+Times SQ.
+The last two stations are also on the top ten by traffic!
+Therefore, the final recommendation for the positioning of volunteers was based on a hybrid between tech company locations and high traffic:
+Astor Pl  (Near IBM and Facebook)
+8th at NYU  (Near IBM, Facebook and NYU)
+Herald SQ (Near Amazon and LinkedIn plus high traffic) 
+Times SQ. (Near IBM and Facebook)
+Grand Central Station (High traffic)
+Penn Station (High traffic)
+IBM is by far the larger employer for tech workers. It may be beneficial to just place a volunteer in front of the IBM building to talk and collect email addresses for WTWY.
+The days with highest subway station traffic are Tuesday to Thursday and the busiest time at 4pm to 8pm.
+Best wishes to WTWY with the gala!
