@@ -40,7 +40,7 @@ The relative effect of the variables in the final price can be examined by looki
 
 ![Alt](/mcarolinag.github.io/images/comparison of coeficients craigslist.png "comparison of coefficients")
 
-For example, a person looking for an apartment with a limited budget could see from the chart, that he or she would be able to have a larger appartment south of Seattle or a smaller apartment nort of Seattle.
+For example, a person looking for an apartment with a limited budget could see from the chart, that he or she would be able to have a larger appartment south of Seattle or a smaller apartment north of Seattle.
 
 Also, a landlord's decision wheather acepting dogs or cats in the properting would be better informed by examining the incremental impact of rent by modifiying the pet poicy.
 
