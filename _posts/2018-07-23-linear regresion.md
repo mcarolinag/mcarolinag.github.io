@@ -34,7 +34,7 @@ The model selected was a polynomial grade 2 model, which was estimated using Las
 
 The errors show a conical shape. Therefore, there may be other solutions outside the linear regression space that could yield a better result.
 
-![Alt](mcarolinag.github.io/images/comparison of predicted vs. actual.png "comparison of predicted vs. actual)
+![Alt](mcarolinag.github.io/images/comparison of predicted vs. actual.png "comparison of predicted vs. actual")
 
 The relative effect of the variables in the final price can be examined by looking at the coefficients of the linear regression, because the variables were normalized. Thus, there are a lot of insights that could be drawn from the relative value of the regression coefficients.
 
