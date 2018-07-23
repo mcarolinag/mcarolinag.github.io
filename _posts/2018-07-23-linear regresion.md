@@ -3,7 +3,8 @@
 layout: post
 title: Prediction of Rental Prices in Seattle using Craigslist Data
 ---
-Business Case
+<b>Business Case:</b>
+
 The market for home rentals in Seattle is very dynamic. The rental prices have varied significantly from year to year the last few years (5% last year).
 
 The prices for rentals are relevant to many stakeholders such as:
