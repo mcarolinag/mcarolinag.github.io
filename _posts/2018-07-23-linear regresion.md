@@ -30,11 +30,13 @@ Several linear regression models were compared. A model was selected based on th
 
 The model selected was a polynomial grade 2 model, which was estimated using LassoCV. The input variables were normalized. Its cross-validated adjusted R2 was 0.6 and the mean error was 15%.
 
-The relative effect of the variables in the final price can be examined by looking at the coefficients of the linear regression, because the variables were normalized. Thus, there are a lot of insights that could be drawn from the relative value of the regression coefficients.
-
 The errors show a conical shape. Therefore, there may be other solutions outside the linear regression space that could yield a better result.
 
-![Alt](/mcarolinag.github.io/images/comparison of coeficients craigslist.png "Title")
+![Alt](mcarolinag.github.io/images/comparison of predicted vs. actual.png "comparison of predicted vs. actual)
+
+The relative effect of the variables in the final price can be examined by looking at the coefficients of the linear regression, because the variables were normalized. Thus, there are a lot of insights that could be drawn from the relative value of the regression coefficients.
+
+![Alt](/mcarolinag.github.io/images/comparison of coeficients craigslist.png "comparison of coefficients")
 
 **Conclusions**
 
