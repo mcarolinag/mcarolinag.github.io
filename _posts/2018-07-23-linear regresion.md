@@ -44,12 +44,14 @@ For example, a person looking for an apartment with a limited budget could see f
 
 Also, a landlord's decision wheather acepting dogs or cats in the properting would be better informed by examining the incremental impact of rent by modifiying the pet poicy.
 
+There are a few variables such as house*garage* that could be a function of distance to downtown or other variable not included in the dataset.  
+
 
 **Conclusions**  
 
-We all have been in apartment with similar number of bedrooms and bathrooms, area, etc., but very different conditions. Variables such as new carpet, hardwood floors, new appliances, etc. are not included in the model.
+We all have been in apartments with similar number of bedrooms and bathrooms, area, etc., but very different conditions. Variables such as new carpet, hardwood floors, new appliances, etc. are not included in the model.
 
-Still, the model selected explains 60% of the variation of price and the mean error is about 15%. The model is very simple and easy to implement and considered acceptable given the few featured included.
+Still, the model selected explains 60% of the variation of the price and the mean error is about 15%. The model is very simple and easy to implement and considered acceptable given the few featured included.
 
 **Future Work**  
 
