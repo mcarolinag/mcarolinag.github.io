@@ -1,9 +1,7 @@
-
 ---
 layout: post
 title: Prediction of Rental Prices in Seattle using Craigslist Data
 ---
-
 
 **Business Case**
 
