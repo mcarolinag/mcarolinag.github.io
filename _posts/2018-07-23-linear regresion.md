@@ -34,6 +34,8 @@ The relative effect of the variables in the final price can be examined by looki
 
 The errors show a conical shape. Therefore, there may be other solutions outside the linear regression space that could yield a better result.
 
+![Alt](/mcarolinag.github.io/images/comparison of coeficients craigslist.png "Title")
+
 **Conclusions**
 
 Although the model selected only explains 60% of the variation of price and the mean error is about 15%. The model is very simple and easy to implement and considered acceptable given the few featured included.  
