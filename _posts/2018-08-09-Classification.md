@@ -35,7 +35,9 @@ The features considered were:
 
 Annual inflation was included as a feature, because it is a lead indicator to interest rate and interest rate is closely related to expected ROI from investor. In addition, it gives an indication of the rate of increase of prices and how effectively could entrepreneurs utilize the funds raised.
 
-mcarolinag.github.io/images/ROC ac.png
+![Alt](/mcarolinag.github.io/images/ROC ac.png "ROC Curve for Acquisions model")
+
+![Alt](/mcarolinag.github.io/images/ROC ipo.png "ROC Curve for IPO model")
 
 
 
