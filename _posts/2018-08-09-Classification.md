@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: Classification of start-ups between likely to be acquired or IPO
+title: Classification of start-ups:likely to be acquired or IPO
 ---
 
 **Business Case**
