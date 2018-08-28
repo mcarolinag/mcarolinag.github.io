@@ -40,19 +40,28 @@ I performed this evaluation with the reviews in topic one, airsoft, because the 
 •	LSA classification: transformed the reviews using TF-IDF vectorizer, and used LSA for dimensionality reduction, the resulting vectors were input into Naïve Bayes, Logistic Regression and Gradient Boosting Classifier to predict if the price was within the following categories: >$100, between $100 and $20, or <$20. The AUC values for the models were similar to randomly guessing.
 
 •	 Neural Networks: input sequences of tokens to a couple of NN models. The architecture of the first model was:
-o	 model1 = Sequential()
+
+o	model1 = Sequential()
+
 o	embedding_size = 100
+
 o	model1.add(Embedding(input_dim=num_words,
                     output_dim=embedding_size,
                     input_length=max_tokens,
                     name='layer_embedding'))
+                    
 o	model1.add(LSTM(32, return_sequences=True))
+
 o	model1.add(LSTM(32))
+
 o	model1.add(Dropout(0.5))
+
 o	model1.add(Dense(1,activation='linear'))
+
 o	model1.compile(loss='mean_squared_error',
               	optimizer='Adam',
               	metrics=['mae'])
+                
 The architecture for the second NN model was:
 o	model2 = Sequential()
 o	embedding_size = 100
