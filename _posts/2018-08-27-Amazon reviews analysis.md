@@ -35,6 +35,7 @@ I determined that 5 topics was a good number. After examining the texts, I label
 I also looked into potential relationships between the reviews content and price of the product reviewed. I didn’t find any evidence of a relationship. 
 
 I performed this evaluation with the reviews in topic one, airsoft, because the reviews included more information about the product purchased. The pipelines and models evaluated were:
+
 •	Speech: Identified part of speech and creating liner model including: average rating, number of helpful votes, total votes, number of verified purchases, percentage of verbs in text, percentage of adjectives, percentage of numeral and cardinal components in the text, percentage of nouns, number of words. I used polynomial features grade 2, standard scaler and Lasso with cross validation. I evaluated the model using grid search for several alpha values. The r2 for the test and predicting samples was very low <0.05.
 
 •	LSA regression: transformed the reviews using TF-IDF vectorizer, and used LSA for dimensionality reduction, the resulting vectors were input in a linear regression model with CV Lasso. The alpha hyperparameter was determined through GridSearch. 
@@ -95,6 +96,9 @@ The r2 for both models was very low.
 
 I noticed that by looking at the most frequent words in each topic one could infer some characteristics of the review writers. For example, Topic 0: Teams and Gifts, subtopic 1 most frequently used words included Christmas, gift, fan, husband, nfl, football, arrived. Thus, one could infer that a lot of the reviewers writing under this topic bought Christmas gifts in Amazon.com and these gifts were NFL or a team related apparel. The word husband may indicate that a lot of the writers were married and likely females. The mentioning of ‘arrived’ may indicates that for these reviewers arrival time was important. Therefore, the topics could also be used as a segmentation tool.
 
+Here is the visualization for words in Topic 0:
+mcarolinag.github.io/images/lda0.html
+    
 **Conclusions:**
 
 The language of each reviewer was used to identify commonalities and potential reviewers characteristics.
