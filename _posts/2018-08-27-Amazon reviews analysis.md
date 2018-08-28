@@ -95,11 +95,6 @@ The r2 for both models was very low.
 •	Converted words to Word2Vect. Estimated average vector for each entry, fit linear model a NN model. The R2 square was very low.
 
 I noticed that by looking at the most frequent words in each topic one could infer some characteristics of the review writers. For example, [Topic 0: Teams and Gifts](https://mcarolinag.github.io/images/lda0.html), subtopic 1 most frequently used words included Christmas, gift, fan, husband, nfl, football, arrived. Thus, one could infer that a lot of the reviewers writing under this topic bought Christmas gifts in Amazon.com and these gifts were NFL or a team related apparel. The word husband may indicate that a lot of the writers were married and likely females. The mentioning of ‘arrived’ may indicates that for these reviewers arrival time was important. Therefore, the topics could also be used as a segmentation tool.
-
-![Alt](https://mcarolinag.github.io/images/lda0.html "Frequent Words for subtopics of Topic 0")
-
-[I'm an inline-style link](https://mcarolinag.github.io/images/lda0.html)
-
   
 **Conclusions:**
 
