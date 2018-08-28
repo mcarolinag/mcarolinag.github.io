@@ -63,17 +63,26 @@ o	model1.compile(loss='mean_squared_error',
               	metrics=['mae'])
                 
 The architecture for the second NN model was:
+
 o	model2 = Sequential()
+
 o	embedding_size = 100
+
 o	model2.add(Embedding(input_dim=num_words,
 output_dim=embedding_size,
 input_length=max_tokens,
 name='layer_embedding'))
+
 o	model2.add(Dropout(0.2))
+
 o	model2.add(Conv1D(64, 5, activation='relu'))
+
 o	model2.add(MaxPooling1D(pool_size=4))
+
 o	model2.add(LSTM(100))
+
 o	model2.add(Dense(1,activation='linear'))
+
 o	model2.compile(loss='mean_squared_error',
 optimizer='Adam',
 metrics=['mae'])
