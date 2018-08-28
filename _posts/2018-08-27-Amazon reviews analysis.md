@@ -34,7 +34,7 @@ I determined that 5 topics was a good number. After examining the texts, I label
 
 I also looked into potential relationships between the reviews content and price of the product reviewed. I didn’t find any evidence of a relationship. 
 
-I performed this evaluation with the reviews in topic one, airsoft, because the reviews included more information about the product purchased. The pipelines and models evaluated were:
+I performed this evaluation with the reviews in [topic one](https://mcarolinag.github.io/images/lda1.html), airsoft, because the reviews included more information about the product purchased. The pipelines and models evaluated were:
 
 •	Speech: Identified part of speech and creating liner model including: average rating, number of helpful votes, total votes, number of verified purchases, percentage of verbs in text, percentage of adjectives, percentage of numeral and cardinal components in the text, percentage of nouns, number of words. I used polynomial features grade 2, standard scaler and Lasso with cross validation. I evaluated the model using grid search for several alpha values. The r2 for the test and predicting samples was very low <0.05.
 
