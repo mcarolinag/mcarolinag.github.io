@@ -19,7 +19,8 @@ The LDA model requires as an input the number of topics to be identified. I trie
 The topics evaluation was done by examining the content of the products and reviews grouped together. The goal is to have reviews and products that have communalities within the same topic.
 
 I determined that 5 topics was a good number. After examining the texts, I labeled the topics based on the perceived commonalties as shown below:
-  •	 Topic 0: Teams and Gifts
+
+  •	Topic 0: Teams and Gifts
   •	Topic 1: Airsoft Guns
   •	Topic 2: Clothes
   •	Topic 3: Fishing and knives
