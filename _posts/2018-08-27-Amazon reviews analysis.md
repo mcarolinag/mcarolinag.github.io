@@ -21,17 +21,24 @@ The topics evaluation was done by examining the content of the products and revi
 I determined that 5 topics was a good number. After examining the texts, I labeled the topics based on the perceived commonalties as shown below:
 
   •	Topic 0: Teams and Gifts
+  
   •	Topic 1: Airsoft Guns
+  
   •	Topic 2: Clothes
+  
   •	Topic 3: Fishing and knives
+  
   •	Topic 4: Workout routines
 
 I also looked into potential relationships between the reviews content and price of the product reviewed. I didn’t find any evidence of a relationship. 
 
 I performed this evaluation with the reviews in topic one, airsoft, because the reviews included more information about the product purchased. The pipelines and models evaluated were:
 •	Speech: Identified part of speech and creating liner model including: average rating, number of helpful votes, total votes, number of verified purchases, percentage of verbs in text, percentage of adjectives, percentage of numeral and cardinal components in the text, percentage of nouns, number of words. I used polynomial features grade 2, standard scaler and Lasso with cross validation. I evaluated the model using grid search for several alpha values. The r2 for the test and predicting samples was very low <0.05.
+
 •	LSA regression: transformed the reviews using TF-IDF vectorizer, and used LSA for dimensionality reduction, the resulting vectors were input in a linear regression model with CV Lasso. The alpha hyperparameter was determined through GridSearch. 
+
 •	LSA classification: transformed the reviews using TF-IDF vectorizer, and used LSA for dimensionality reduction, the resulting vectors were input into Naïve Bayes, Logistic Regression and Gradient Boosting Classifier to predict if the price was within the following categories: >$100, between $100 and $20, or <$20. The AUC values for the models were similar to randomly guessing.
+
 •	 Neural Networks: input sequences of tokens to a couple of NN models. The architecture of the first model was:
 o	 model1 = Sequential()
 o	embedding_size = 100
@@ -62,7 +69,7 @@ o	model2.compile(loss='mean_squared_error',
 optimizer='Adam',
 metrics=['mae'])
 
-	The r2 for both models was very low.
+The r2 for both models was very low.
 
 •	Converted words to Word2Vect. Estimated average vector for each entry, fit linear model a NN model. The R2 square was very low.
 
