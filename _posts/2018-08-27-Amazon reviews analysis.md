@@ -8,7 +8,9 @@ Amazon reviews are important to seller because they offer insights about who is 
 
 **Data**
 The data used for this analysis was:
+
 •	 A collection of reviews written in the Amazon.com marketplace and associated metadata from 1995 until 2015 for the sports category
+
 •	Prices from a selected topic: Scraped using Requests in python
 
 **What are people talking about?**
