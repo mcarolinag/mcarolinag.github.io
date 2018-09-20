@@ -46,9 +46,14 @@ It would be ideal to develop a model with the same information that a doctor nor
 
 
 References:
+
   http://www.who.int/en/news-room/fact-sheets/detail/pneumonia
+  
   https://www.hcup-us.ahrq.gov/reports/statbriefs/sb204-Most-Expensive-Hospital-Conditions.jsp
+  
   Everton, Kathryn L., et al. "White paper report of the 2011 RAD-AID conference on international radiology for developing countries: integrating multidisciplinary strategies for imaging services in the developing world." Journal of the American College of Radiology 9.7 (2012): 488-494.
+  
   https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
+  
   Rajpurkar, Pranav, et al. "Chexnet: Radiologist-level pneumonia detection on chest x-rays with deep learning." arXiv preprint arXiv:1711.05225 (2017).
 
