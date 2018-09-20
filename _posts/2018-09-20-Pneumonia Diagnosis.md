@@ -30,7 +30,7 @@ The transfer learning approach focused on the use of the VGG16 and ResNet50 arch
 
 The results were evaluated by comparing the ROC AUC. The dataset is unbalanced and this metric is more appropriate in this case than accuracy. The model with the highest area under the ROC curve was the VGG16 model, and its ROCAUC was 0.82.
 
-![Alt](/mcarolinag.github.io/images/pneumonia ROC curve.png "Model performance")
+![Alt](/mcarolinag.github.io/images/pneumonia ROC curve small font.png "Model performance")
 
 **Evaluating results:**
 
