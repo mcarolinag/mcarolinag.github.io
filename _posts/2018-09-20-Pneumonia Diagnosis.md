@@ -18,7 +18,7 @@ Normally, doctors have two sets of information when diagnosing pneumonia. The sy
 
 The relevant information when examining chest images for pneumonia is the presence or not of opacities in the lungs. The presence of opacities is associated with fluids in the lungs and it indicated that there may be an infectious process in the lungs, pneumonia. Please see the images below to see an example:
 
-![Alt](mcarolinag.github.io/images/Pneumonia X-ray images.png "The challenge of identifiying pneumonia in X-ray images")
+![Alt]('mcarolinag.github.io/images/Pneumonia X-ray images.png' "The challenge of identifiying pneumonia in X-ray images")
 
 The dataset used for this project includes more than 25,000 images. The dataset was unbalanced and included 22% x-rays of patients with pneumonia. 
 
@@ -30,7 +30,7 @@ The transfer learning approach focused on the use of the VGG16 and ResNet50 arch
 
 The results were evaluated by comparing the ROC AUC. The dataset is unbalanced and this metric is more appropriate in this case than accuracy. The model with the highest area under the ROC curve was the VGG16 model, and its ROCAUC was 0.82.
 
-![Alt](mcarolinag.github.io/images/pneumonia ROC curve.png "Model performance")
+![Alt]('mcarolinag.github.io/images/pneumonia ROC curve.png' "Model performance")
 
 **Evaluating results:**
 
