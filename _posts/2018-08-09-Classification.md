@@ -35,9 +35,9 @@ The features considered were:
 
 Annual inflation was included as a feature, because it is a lead indicator to interest rate and interest rate is closely related to expected ROI from investor. In addition, it gives an indication of the rate of increase of prices and how effectively could entrepreneurs utilize the funds raised.
 
-![Alt](/images/ROC ac.png "ROC Curve for Acquisions model")
+![Alt](/images/ROC%20ac.png "ROC Curve for Acquisions model")
 
-![Alt](/images/'ROC IPOs.png' "ROC Curve for IPO model")
+![Alt](/images/ROC%20IPOs.png "ROC Curve for IPO model")
 
 The models with the highest AUC value were based on logistic regression with L1 regularization for both categories. The AUC values for the train and test case for the logistic regression are within 2%, thus I considered that the models are not overfitting. 
 
