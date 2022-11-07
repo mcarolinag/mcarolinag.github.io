@@ -35,9 +35,9 @@ The features considered were:
 
 Annual inflation was included as a feature, because it is a lead indicator to interest rate and interest rate is closely related to expected ROI from investor. In addition, it gives an indication of the rate of increase of prices and how effectively could entrepreneurs utilize the funds raised.
 
-![Alt](/mcarolinag.github.io/images/ROC ac.png "ROC Curve for Acquisions model")
+![Alt](/images/ROC ac.png "ROC Curve for Acquisions model")
 
-![Alt](/mcarolinag.github.io/images/ROC IPOs.png "ROC Curve for IPO model")
+![Alt](/images/ROC IPOs.png "ROC Curve for IPO model")
 
 The models with the highest AUC value were based on logistic regression with L1 regularization for both categories. The AUC values for the train and test case for the logistic regression are within 2%, thus I considered that the models are not overfitting. 
 
@@ -54,7 +54,7 @@ In both models, the feature with the greatest absolute coefficient is inflation 
 
 In the case of acquisition, the longest it takes to raise founding for the first time the less likely the company will be acquired. Similarly, companies that are founded in CA, NY and which category is web are more likely to be acquired.
 
-![Alt](/mcarolinag.github.io/images/coeficients.png "ROC Curve for IPO model")
+![Alt](/images/coeficients.png "ROC Curve for IPO model")
 
 **Conclusion:**
 Models were developed to classify start-ups on either likely to be acquired or have an IPO, and their performance is better than the base.
