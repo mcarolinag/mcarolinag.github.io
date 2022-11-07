@@ -37,7 +37,7 @@ Annual inflation was included as a feature, because it is a lead indicator to in
 
 ![Alt](/images/ROC ac.png "ROC Curve for Acquisions model")
 
-![Alt](/images/ROC IPOs.png "ROC Curve for IPO model")
+![Alt](/images/'ROC IPOs.png' "ROC Curve for IPO model")
 
 The models with the highest AUC value were based on logistic regression with L1 regularization for both categories. The AUC values for the train and test case for the logistic regression are within 2%, thus I considered that the models are not overfitting. 
 
