@@ -34,11 +34,11 @@ The model selected was a polynomial grade 2 model, which was estimated using Las
 
 The errors show a conical shape. Therefore, there may be other solutions outside the linear regression space that could yield a better result.
 
-![Alt](/mcarolinag.github.io/images/comparison of predicted vs. actual.png "comparison of predicted vs. actual")
+![Alt](/images/'comparison of predicted vs. actual.png' "comparison of predicted vs. actual")
 
 The relative effect of the variables in the final price can be examined by looking at the coefficients of the linear regression, because the variables were normalized. Thus, there are a lot of insights that could be drawn from the relative value of the regression coefficients.
 
-![Alt](/mcarolinag.github.io/images/comparison of coeficients craigslist.png "comparison of coefficients")
+![Alt](/images/'comparison of coeficients craigslist.png' "comparison of coefficients")
 
 For example, a person looking for an apartment with a limited budget could see from the chart, that he or she would be able to have a larger appartment south of Seattle or a smaller apartment north of Seattle.
 
@@ -51,7 +51,7 @@ There are a few variables such as house*garage* that could be a function of dist
 
 We all have been in apartments with similar number of bedrooms and bathrooms, area, etc., but very different conditions. Variables such as new carpet, hardwood floors, new appliances, etc. are not included in the model.
 
-Still, the model selected explains 60% of the variation of the price and the mean error is about 15%. The model is very simple and easy to implement and considered acceptable given the few featured included.
+Still, the model selected explains 60% of the variation of the price and the mean error is about 15%. The model is very simple and easy to implement and considered acceptable given the few features included.
 
 **Future Work**  
 
