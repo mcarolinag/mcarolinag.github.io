@@ -21,7 +21,8 @@ You are talking with Bhukkuni your mindful chatbot. I was created by Buddha to s
 
 I copied the code from “View Code” and included it in a function ask defined below.
 
-```def ask(question, chat_log=None):
+```
+def ask(question, chat_log=None):
 
    prompt_text= f"{chat_log}{restart_sequence}: {question}{start_sequence}:"
    
