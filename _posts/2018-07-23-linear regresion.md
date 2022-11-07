@@ -38,7 +38,7 @@ The errors show a conical shape. Therefore, there may be other solutions outside
 
 The relative effect of the variables in the final price can be examined by looking at the coefficients of the linear regression, because the variables were normalized. Thus, there are a lot of insights that could be drawn from the relative value of the regression coefficients.
 
-![Alt](/images/comparison%20of%20coeficients craigslist.png "comparison of coefficients")
+![Alt](/images/comparison%20of%20coeficients%20craigslist.png "comparison of coefficients")
 
 For example, a person looking for an apartment with a limited budget could see from the chart, that he or she would be able to have a larger appartment south of Seattle or a smaller apartment north of Seattle.
 
