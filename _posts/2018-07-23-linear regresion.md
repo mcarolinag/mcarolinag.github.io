@@ -34,11 +34,11 @@ The model selected was a polynomial grade 2 model, which was estimated using Las
 
 The errors show a conical shape. Therefore, there may be other solutions outside the linear regression space that could yield a better result.
 
-![Alt](/images/'comparison%20of%20predicted%20vs.%20actual.png' "comparison of predicted vs. actual")
+![Alt](/images/comparison%20of%20predicted%20vs.%20actual.png "comparison of predicted vs. actual")
 
 The relative effect of the variables in the final price can be examined by looking at the coefficients of the linear regression, because the variables were normalized. Thus, there are a lot of insights that could be drawn from the relative value of the regression coefficients.
 
-![Alt](/images/'comparison%20of%20coeficients craigslist.png' "comparison of coefficients")
+![Alt](/images/comparison%20of%20coeficients craigslist.png "comparison of coefficients")
 
 For example, a person looking for an apartment with a limited budget could see from the chart, that he or she would be able to have a larger appartment south of Seattle or a smaller apartment north of Seattle.
 
