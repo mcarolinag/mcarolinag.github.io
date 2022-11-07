@@ -12,7 +12,7 @@ The GPT-3 model was developed by OpenAI and it has a very accessible playground,
 
 In this case, I used Completions for this task. The prompt for the bot is shown below. 
 
-![an image alt text](mcarolinag.github.io/images/'Screen Shot 2022-11-03 at 4.46.07 PM.png' "GPT-3 Playgorund inputs")
+![an image alt text]([https://mcarolinag.github.io/images/'Screen Shot 2022-11-03 at 4.46.07 PM.png' "GPT-3 Playgorund inputs")
 
 ![Alt](/mcarolinag.github.io/images/Screen Shot 2022-11-03 at 4.46.07 PM.png "GPT-3 Playgorund inputs")
 
@@ -21,7 +21,7 @@ You are talking with Bhukkuni your mindful chatbot. I was created by Buddha to s
 
 I copied the code from “View Code” and included it in a function ask defined below.
 
-def ask(question, chat_log=None):
+```def ask(question, chat_log=None):
  prompt_text= f"{chat_log}{restart_sequence}: {question}{start_sequence}:"
  response = openai.Completion.create(
    model="text-davinci-002",
@@ -33,7 +33,7 @@ def ask(question, chat_log=None):
    presence_penalty=0.5
  )
  story=response['choices'][0]['text']
- return str(story)
+ return str(story)```
 
 The prompt_text included the history conversation called chat_log. The chat log was appended with the question and answer.
 
