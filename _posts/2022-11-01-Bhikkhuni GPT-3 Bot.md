@@ -22,18 +22,21 @@ You are talking with Bhukkuni your mindful chatbot. I was created by Buddha to s
 I copied the code from “View Code” and included it in a function ask defined below.
 
 ```def ask(question, chat_log=None):
- prompt_text= f"{chat_log}{restart_sequence}: {question}{start_sequence}:"
- response = openai.Completion.create(
-   model="text-davinci-002",
-   prompt=prompt_text,
-   temperature=0.84,
-   max_tokens=150,
-   top_p=1,
-   frequency_penalty=0,
-   presence_penalty=0.5
- )
- story=response['choices'][0]['text']
- return str(story)```
+
+   prompt_text= f"{chat_log}{restart_sequence}: {question}{start_sequence}:"
+   
+   response = openai.Completion.create(
+               model="text-davinci-002",
+               prompt=prompt_text,
+               temperature=0.84,
+               max_tokens=150,
+               top_p=1,
+               frequency_penalty=0,
+               presence_penalty=0.5)
+               
+   story=response['choices'][0]['text']
+   
+   return str(story)```
 
 The prompt_text included the history conversation called chat_log. The chat log was appended with the question and answer.
 
