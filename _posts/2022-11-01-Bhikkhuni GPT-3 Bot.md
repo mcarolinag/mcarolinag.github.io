@@ -13,7 +13,7 @@ The GPT-3 model was developed by OpenAI and it has a very accessible playground,
 In this case, I used Completions for this task. The prompt for the bot is shown below. 
 
 
-![an image alt text](blog/images/'Screen Shot 2022-11-03 at 4.46.07 PM.png' "GPT-3 Playgorund inputs")
+![an image alt text](/blog/images/'Screen Shot 2022-11-03 at 4.46.07 PM.png' "GPT-3 Playgorund inputs")
  
 
 I copied the code from “View Code” and included it in a function ask defined below.
