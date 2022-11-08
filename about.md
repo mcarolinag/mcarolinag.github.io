@@ -4,17 +4,15 @@ title: About
 permalink: /about/
 ---
 
-My background is a blend of B.Sc. in Chemical Engineering with a M.Sc. in Natural Gas Engineering, PMP,  MBA from the University of Washington plus 14+ years of work experience. 
+Hi!
 
-I have been fortunate to work with very smart people in projects in many different countries. I worked for 10+ years for GE water in engineering and commercial roles, and recently separated from Suez Water Technology and Solutions to pursue data science.
+I am Data Scientists with experience managing teams. I started my journey into data science while working for GE. I worked for a product in GE Water that didn't have an 'analyst'. As part of my job I needed Data! I have learned a lot of thing by myself, also I took classes in the evening at the University of Washington and joined the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) a few years ago. 
 
-My most recent work experience has been leading cross functional teams for the development of proposals for wastewater treatment plants. I developed budgets for the supply of wastewater treatment plants, responded to customer questions and resourced as necessary to complete commercial offerings and provide technical support.
-
-I am currently in the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps). I am excited about data science and enjoying the bootcamp. I am very curious about the nuances and variable interactions that data may reveal.
+I worked at Outreach for almost 3.5 years as a Data Scientist and later as a Operations Data Science Manager. As a Data Science manager, I  translated business problems into data science projects and worked with internal teams in defining project goals, deliverables and timelines based on existing pain points.  I hired, onboarded and mentored team members and developed a career ladder for the Operations Data Science team.  I also executed some of the projects such as predicting customer Expansions and Custumer Life Time Value. I also Supported team members by reviewing code and troubleshooting specific project issues.
 
 ### Outside Data Science
 
-I am a runner and I am training for the Seattle to Portland bike ride organized by the [Cascade Bycicle Club](https://cascade.org/).  I also have the cutest dog. Her name is Carmen.
+I love outdoor activities running, biking, camping or just walking. My husband and I are raising our son and have the best dog ever -Carmen.
 
 I enjoy yoga and I practice vipassana meditation.
 
